@@ -1,0 +1,1 @@
+// Lógica galería de imágenes
