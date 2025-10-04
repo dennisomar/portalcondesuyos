@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="560" height="120" viewBox="0 0 560 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portal Condesuyos">
+  <title>Portal Condesuyos</title>
+  <defs>
+    <linearGradient id="gh" x1="0" x2="1">
+      <stop offset="0%" stop-color="#A23E48"/>
+      <stop offset="100%" stop-color="#2E7A61"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(12,10)">
+    <rect width="100" height="100" rx="14" fill="#071326"/>
+    <g transform="translate(10,12)" fill="none" stroke="url(#gh)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 48 C16 18, 36 8, 54 34 C62 46, 86 8, 98 34" />
+    </g>
+    <g transform="translate(28,28)" fill="#fff" font-family="Poppins, Inter, Arial" font-weight="700" font-size="36">
+      <text x="0" y="44">PC</text>
+    </g>
+  </g>
+  <g transform="translate(132,36)" fill="#0f1724" font-family="Merriweather, Georgia, serif">
+    <text x="0" y="20" font-size="20" font-weight="700">Portal</text>
+    <text x="0" y="52" font-size="28" font-weight="800">Condesuyos</text>
+    <text x="0" y="80" font-size="12" fill="#6b7280">Historia • Cultura • Turismo</text>
+  </g>
+</svg>
