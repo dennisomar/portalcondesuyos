@@ -1,0 +1,98 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portal Condesuyos</title>
+<meta name="description" content="Portal Condesuyos — Historia, cultura y turismo de la provincia de Condesuyos, Arequipa.">
+<link rel="icon" href="logo-coropuna.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header class="header">
+    <div class="brand">
+      <img src="logo-coropuna.svg" class="logo-img" alt="Portal Condesuyos">
+      <div class="title-block"><div class="title">Portal Condesuyos</div><div class="meta">Chuquibamba · Arequipa</div></div>
+    </div>
+    <nav class="nav">
+      <a href="index.html">Inicio</a>
+      <a href="historia.html">Historia</a>
+      <a href="distritos.html">Distritos</a>
+      <a href="turismo.html">Turismo</a>
+      <a href="musica.html">Música</a>
+      <a href="orgullo.html">Orgullo Condesuyano</a>
+      <a href="leyendas.html">Historias</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="controls">
+      <button id="langToggle" class="btn small">EN</button>
+      <button id="themeToggle" class="btn small">🌙</button>
+    </div>
+  </header>
+
+  <section class="hero dark-hero">
+    <div class="carousel" id="carousel">
+      <img src="carousel1.webp" class="carousel-img" alt="Coropuna">
+      <img src="carousel2.webp" class="carousel-img hidden" alt="Chuquibamba">
+      <img src="carousel3.webp" class="carousel-img hidden" alt="Andaray">
+    </div>
+    <div class="hero-overlay">
+      <h1 data-es="Entre el Coropuna y la tradición" data-en="Between Coropuna and tradition">Entre el Coropuna y la tradición</h1>
+      <p data-es="Cuna de historia, cultura y vida — bienvenidos a la Provincia de Condesuyos." data-en="Cradle of history, culture and life — welcome to the Province of Condesuyos.">Cuna de historia, cultura y vida — bienvenidos a la Provincia de Condesuyos.</p>
+      <div class="hero-actions">
+        <button id="audioToggle" class="btn small">🎶 Activar ambiente</button>
+        <a class="cta" href="turismo.html">Explorar rutas</a>
+      </div>
+      <div class="credits" style="margin-top:8px;font-size:13px;color:rgba(255,255,255,0.85)">Foto principal: Dennis Omar M. C.</div>
+    </div>
+  </section>
+
+  <main class="grid">
+    <section>
+      <article class="card">
+        <h2>Presentación</h2>
+        <p>Portal Condesuyos es un proyecto comunitario que difunde la historia, cultura, tradiciones y atractivos turísticos de la provincia de Condesuyos, Arequipa. Diseñado para historiadores, estudiantes y viajeros.</p>
+      </article>
+
+      <article class="card">
+        <h3>Contenido destacado</h3>
+        <ul>
+          <li><strong>Coropuna</strong> — Montaña sagrada y eje paisajístico.</li>
+          <li><strong>Itac</strong> — Sitio arqueológico con andenes y necrópolis.</li>
+          <li><strong>Los Errantes</strong> — Legado musical de Chuquibamba.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Mapa general</h3>
+        <p>Marcadores de los distritos de Condesuyos. (Mapa interactivo embebible - reemplaza el iframe con tu clave si quieres Google Maps personalizado)</p>
+        <div class="map-embed" style="min-height:220px;background:#0f1724;color:#fff;display:flex;align-items:center;justify-content:center;border-radius:8px">Mapa interactivo (reemplazar por iframe de Google Maps)</div>
+      </article>
+    </section>
+
+    <aside>
+      <div class="card">
+        <h4>Contacto</h4>
+        <p>Tel: +51 973133799<br>Email: <a href="mailto:dmogrovejo@gmail.com">dmogrovejo@gmail.com</a></p>
+      </div>
+      <div class="card">
+        <h4>Galería</h4>
+        <img src="carousel3.webp" alt="thumb" style="width:100%;border-radius:8px;margin-top:8px">
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer">
+    <p>© Portal Condesuyos</p>
+    <p>Desarrollado en colaboración con <a href="https://www.facebook.com/share/p/16kXzxYPew/" target="_blank" rel="noreferrer">ChuquibambaNet Arequipa</a></p>
+    <p class="visits">📈 <span id="visitCount">—</span> visitas totales</p>
+  </footer>
+</div>
+
+<audio id="ambientAudio" preload="auto" loop>
+  <source src="los-errantes.wav" type="audio/wav">
+</audio>
+<script src="script.js"></script>
+</body>
+</html>
