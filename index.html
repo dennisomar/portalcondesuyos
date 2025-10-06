@@ -1,0 +1,106 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portal Condesuyos</title>
+  <meta name="description" content="Portal Condesuyos — Historia, cultura y naturaleza viva al pie del majestuoso Coropuna." />
+  <link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="header" role="banner">
+      <div class="brand">
+        <img src="assets/logo/logo-horizontal.svg" alt="Portal Condesuyos" class="logo-img">
+        <div>
+          <div class="title">Portal Condesuyos</div>
+          <div class="meta">Chuquibamba · Arequipa</div>
+        </div>
+      </div>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="index.html">Inicio</a>
+        <a href="historia.html">Historia</a>
+        <a href="distritos.html">Distritos</a>
+        <a href="turismo.html">Turismo</a>
+        <a href="musica.html">Música</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+      <div class="controls">
+        <button id="langToggle" class="btn small">EN</button>
+        <button id="themeToggle" class="btn small">🌙</button>
+      </div>
+    </header>
+
+    <section class="hero" aria-label="Nevado Coropuna">
+      <div class="hero-bg" id="heroBg"></div>
+      <div class="hero-content">
+        <h1 id="heroTitle">Entre el Coropuna y la tradición</h1>
+        <p id="heroLead">Cuna de historia, cultura y vida — bienvenidos a la Provincia de Condesuyos.</p>
+        <div class="hero-actions">
+          <a href="turismo.html#coropuna" class="cta">Explorar rutas</a>
+          <div class="audio-controls">
+            <button id="audioToggle" class="btn small">🔈</button>
+            <label class="meta small">Audio ambiental</label>
+          </div>
+        </div>
+      </div>
+      <div class="credit-overlay">© Portal Condesuyos</div>
+    </section>
+
+    <main class="grid">
+      <section>
+        <article class="card">
+          <h2>Presentación</h2>
+          <p class="meta">Condesuyos es una provincia del departamento de Arequipa caracterizada por su geografía andina, el imponente Nevado Coropuna y una riqueza cultural que se expresa en festividades, música y tradiciones rurales.</p>
+        </article>
+
+        <article class="card">
+          <h3>Destacados</h3>
+          <ul>
+            <li><strong>Coropuna</strong> — montaña sagrada y ruta de trekking.</li>
+            <li><strong>Itac</strong> — zona arqueológica y necrópolis.</li>
+            <li><strong>Los Errantes</strong> — legado musical de Chuquibamba.</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Música y tradición</h3>
+          <p>Homenaje a Los Errantes: agrupación emblemática cuyo legado sigue presente en fiestas y comparsas.</p>
+        </article>
+      </section>
+
+      <aside>
+        <div class="card">
+          <h4>Contacto</h4>
+          <p class="meta">Tel: +51 973133799<br>Email: <a href="mailto:dmogrovejo@gmail.com">dmogrovejo@gmail.com</a></p>
+        </div>
+
+        <div class="card">
+          <h4>Formulario</h4>
+          <form id="contactForm" action="https://formspree.io/f/yourFormID" method="POST">
+            <label>Nombre<br><input name="nombre" required></label>
+            <label>Correo<br><input type="email" name="correo" required></label>
+            <label>Mensaje<br><textarea name="mensaje" rows="4" required></textarea></label>
+            <div style="margin-top:8px"><button class="btn" type="submit">Enviar mensaje</button></div>
+            <p class="small meta">Si Formspree no está configurado, el formulario abrirá tu cliente de correo como respaldo.</p>
+          </form>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <div>© Portal Condesuyos — Fotografía y desarrollo: Dennis Omar M. C.</div>
+      <div class="credit">Desarrollado en colaboración con <a href="https://www.facebook.com/share/p/16kXzxYPew/" target="_blank" rel="noreferrer">ChuquibambaNet Arequipa</a></div>
+      <div class="visits">📈 <span id="visitCount">—</span> visitas totales</div>
+    </footer>
+  </div>
+
+  <audio id="ambientAudio" loop preload="auto">
+    <source src="assets/audio/ambient_andina.wav" type="audio/wav">
+  </audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
