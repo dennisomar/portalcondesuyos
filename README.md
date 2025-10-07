@@ -1,1 +1,0 @@
-Portal Condesuyos - Paquete final listo para GitHub Pages. Reemplaza activos provisionales cuando tengas fotos reales.
