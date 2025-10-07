@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://portalcondesuyos.github.io/sitemap.xml
